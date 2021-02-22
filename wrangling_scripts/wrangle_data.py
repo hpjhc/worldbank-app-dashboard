@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.graph_objs as go
 
-# TODO: Scroll down to line 157 and set up a fifth visualization for the data dashboard
 
 def cleandata(dataset, keepcolumns = ['Country Name', '1990', '2015'], value_variables = ['1990', '2015']):
     """Clean world bank data for a visualizaiton dashboard
